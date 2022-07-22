@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #7dcccb;
+}
+
+/*styling for the header*/
+header {
+  background-color: #4b9899;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 30px;
+}
+
+h1 a {
+  color: darkblue;
+}
+
+header img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+/*navbar styling*/
+nav {
+position: fixed;
+right: 0;
+  background-color: #4b9899;
+  border: #404040;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: groove;
+  margin: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  float: right;
+}
+
+header a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+header a:hover {
+  color: darkmagenta;
+}
+
+ul li {
+  display: inline;
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: royalblue;
+}
+
+/*main section styling*/
+h2 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: 	whitesmoke;
+  font-size: larger;
+  font-weight: bold;
+}
+
+p {
+  color: #004d00;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  font-size: medium;
+}
+
+a img {
+  display: inline;
+  padding: 20px;
+}
+
+/*styling to fade in the pics for projects to show it's a link to the deployed website*/
+.fadein img{
+  opacity:0.5;
+  transition: 1s ease;
+  }
+  
+  .fadein img:hover{
+  opacity:1;
+  transition: 1s ease;
+  }
+
+/*footer styling*/
+footer {
+  text-align: center;
+  color : #404040;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer a {
+  color: royalblue;
+}
+
+footer a:hover {
+  color: darkmagenta;
+}
