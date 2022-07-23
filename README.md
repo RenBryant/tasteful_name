@@ -26,25 +26,18 @@ Use the command node server.js in the root folder!
 
 ## Links
 ![Portfolio Picture](./public/images/Portfolio-Picture.jpg)
-	[Deployed Application](https://git.heroku.com/salty-waters-22892.git)
+	[Deployed Application]()
 
 
 ## Usage
-In this app the user is able to sign up and log in to their own personal and private account. Then the user will be able to make posts, comment on posts, and delete posts.
+This is my own personal portfolio created from React. Feel free to look through my projects and message me if you would like to inquire about anything. Thanks!
 
 
 ## Technologies
 The application contains the following technologies:
 
 ```
-bcrypt
-express
-dotenv
-mysql2
-express-handlebars
-express-session
-connect-session-sequeilize
-sequelize
+react
 
 ```
 
